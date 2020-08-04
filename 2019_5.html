@@ -1,0 +1,93 @@
+<!DOCKTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="2019年まとめ" content="入力形式に合わせたフォームパーツの作成">
+    
+    <title>リンゴの感想文をかけるようなフォームパーツの作成</title>
+    </head>
+    
+    <body>
+    
+        <div align="center">
+        
+        <h1>感想文を書く。フォームパーツの作成</h1>
+        <h2>テキストボックスに回答を入力してください。</h2>
+        
+        <h3>Q.このリンゴのタイトル候補から良いと思ったものを選択してください。</h3>
+        <!-- cols属性：最大文字を指定する -->
+        <img src="images/Blue_apple_350_fire.jpg" alt="大喜利のリンゴ" widh="250" height="250" name="大喜利のリンゴ">
+        <p></p>
+        
+        <!-- select属性 -->
+        <form action="2019.html" method="post">
+        <select name="name">
+        
+        
+        <option value="selected">カビたリンゴ
+            </option>
+            
+        <option value="selected">汚染されたリンゴ
+            </option>
+        
+        <option value="selected">バイオなリンゴ
+            </option>
+            </select>
+        
+        </form>
+            <p></p>
+        
+        <h3>Q.このリンゴの販売方法を考えてください。</h3>
+        <img src="images/Blue_apple_350_electro.jpg" alt="大喜利のリンゴ2" width="250" height="250">
+        
+        <!-- select属性 -->
+        <form action="2019.html" method="post">
+        <select size="size">
+        
+            <option value="selected">発電所に売る</option>
+            
+            <option value="selected">観光施設に飾る
+            </option>
+            
+            <option value="selected">子役として売り出す
+            </option>
+            </select>
+             
+            </form>
+            <p></p>
+        
+            <h3>Q.このリンゴを初めてみた時、どのような気持ちになりましたか？</h3>
+            
+            <img src="images/Blue_apple_350_moza.jpg"
+            alt="大喜利のリンゴ3" width="250" heigt="250">
+            
+            <label>
+            <!--required属性-->
+            <p></p>
+            <form action="2019.html" method="post">
+            <textarea name="comment" cols="30" rows="10" wrap="soft" maxlength="300" minlength="5"
+            placeholder="正直に思ったことを書いてみましょう。（300文字以内）" required></textarea>
+            
+                <p></p>
+            <!--送信ボタン -->
+            
+            <button type="reset" name="name">リセットする</button>
+            
+            <button type="submit" name="name">送信する</button>
+            
+            <button type="submit" name="name">何もしない</button>
+                </form>
+            </label>
+            <p></p>
+        <label>
+        <li><a href="2019.html">トップページ</a></li>
+        <li><a href="2019_2.html">UL要素を用いた青森リンゴとその他の地域のリンゴの紹介</a></li>
+        <li><a href="2019_4.html" target="_blank">フォームを使用したリンゴのテスト</a>
+        <li><a href="2019_5.html" target="_blank">フォームを使用したリンゴとフォームパーツ</a>
+        <li><a href="2019_3.html" target="_blank">サイトマップに戻る</a></li>
+        </label>
+            <!-- -->
+            <!-- -->
+        </div>
+    </body>
+</html>

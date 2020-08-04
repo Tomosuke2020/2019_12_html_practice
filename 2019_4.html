@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+    
+    <head>
+        <meta charset="UTF-8">
+        
+    <title>フォームを使用したりんごのテスト</title>
+    </head>
+    <body>
+        
+    <h1>フォームを使用したリンゴのテスト</h1>
+    <div div align="center"><!-- 中央揃え-->
+            
+    <h2>Q.この果物の名前はなんですか？</h2>
+    
+    <!-- ラジオボタン-->
+        <img src="images/Blue_apple_350.jpg"
+        alt="リンゴかもしれない"
+        width="200" height="200">
+    <p></p>
+            
+    <table>
+        <tr>
+            <form action ="program.php" method="post"><input type="radio" name="りんご">
+            </form>りんご</tr>
+        <tr>
+            <form action ="program.php" method="post">
+            <input type="radio" name="なす">
+            </form>なす</tr>
+        <tr>
+            <form action="program.php" method="post">
+            <input type="radio" name="きゅうり">
+            </form>きゅうり</tr>
+
+        </table>
+        <p></p>
+        <form action="2019.html" method="post">
+            <input type="submit" name="回答する" >
+        回答する</form>
+        
+        <label>
+    <h2>Q.Macintoshの和名はなんですか？</h2>
+    <!-- 一行入力マス -->
+    
+    <dl>
+        <form action="program.php" method="post">
+        <input type="text" name="旭">
+        </form>
+    </dl>
+        
+        <dl>
+    <h2>Q.リンゴと打ち込んでみてください。</h2>
+            <!-- 暗証形式 Password関数-->
+        </dl>
+            
+        <dt>
+        <form action="2019.html" method="post">
+        <input type="Password" name="リンゴと打ち込んでも読めない">
+        </form>
+        </dt>
+            
+        <h2>Q.あなたの思うリンゴのイメージを選んでください。</h2>
+        <table>
+        <!-- チェックボックス -->
+        
+        <form action="2019.html" method="post">
+        <input type="checkbox" name="リンゴのイメージ">
+        </form>甘い
+            
+        
+        <form action="2019.html" method="post">
+        <input type="checkbox" name="リンゴのイメージ">
+        </form>苦い
+        
+        <form action="2019.html" method="post">
+        <input type="checkbox" name="リンゴのイメージ">
+        </form>辛い
+            
+        <form action="2019.html" method="post">
+        <input type="checkbox" name="リンゴのイメージ">
+        </form>酸っぱい
+        
+        <form action="2019.html" method="post">
+        <input type="checkbox" name="リンゴのイメージ">
+        </form>旨みがある
+        </table>
+        
+        <p></p>
+        <form action="2019.html" method="post">
+        <input type="submit" name="回答する">
+        回答する</form>
+        <p></p>
+        
+        <h2>あなたの持つリンゴの写真を送信してください。</h2>
+        <!-- ファイルを送信する-->
+        <from action="2019.html" method="post">
+        <input type="file" name="ファイルを送信する">
+        </from>
+        
+        <h2>気持ちリンゴの写真を送信しています。</h2>
+        <!-- hidden（非表示）-->
+        <form action="2019.html" method="post">リンゴ
+        <input type="hidden" name="非表示によるデータ送信">
+        </form>
+            
+        <h2>入力のリセット</h2>
+        <!-- リセット項目-->
+            
+        <form action="2019.html" method="post">
+        <input type="reset" name="入力リセットボタン">
+        </form>
+        
+        <h2>リンゴのキラキラボタン</h2>
+        <form action="2019.html" method="post">
+        <input type="image" img src=images/Blue_apple_350_soushin.png width="150"  height="150" name="画像ボタン">
+        
+        </form>
+        </label>
+        
+        </div>
+    </body>
+</html>

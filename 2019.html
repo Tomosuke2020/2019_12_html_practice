@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>2019年のhtml学習総集編。リンク作成への流れ</title>
+    </head>
+    
+    <body>
+        <h1>2019年のhtml学習総集編。リンク作成の流れ</h1>
+        <h2>画像の挿入</h2>
+        <img src="images/blue_apple_350.jpg"
+        alt="りんご"
+        widh="350">
+        
+        <h1>リンクの作成</h1>
+        <!--リンクパス -->
+        <a href="2019.html">このページにアクセス</a>
+        <p></p>
+        
+        <a href="2019.html"target="_blank">新しいタブでこのページにアクセス</a>
+        
+        <h1>画像リンクの作成</h1>
+        <!-- 画像リンクパス -->
+        
+        <p>画像リンクの貼られたリンゴ</p>
+        <a href="2019.html">
+            <img src="images/Blue_apple_350_2.jpg"
+             alt="リンクの貼られたリンゴ">
+        </a>
+        <p>さらに新しいタブで開かれるようになったリンゴ</p>
+        <a href="2019.html" target="_blank">
+            <img src="images/Blue_apple_350_2.jpg">
+        </a>
+        
+        <h1>複数の要素にリンクを設定し中央揃えにして新しいタブで開けるリンゴ</h1>
+        
+        <!-- 複数の要素を使用するDivタグを使用する -->
+        
+        <div align="center">
+        <a href="2019.html"target="_blank">
+            <img src="images/Blue_apple_350_2.jpg"
+             alt="複数要素を持つリンゴ">
+        <h3>リンゴ紹介</h3>
+        </a>
+        </div>
+        
+        <h1>メール画面を開く</h1>
+        <!-- メールと電話のリンクを作成 -->
+        <a href="mailto:iam.tomosuke@gmail.com">
+        メールの送信</a>
+        
+        <p></p>
+        
+        <a href="tel:05031876831">
+            電話をかける</a>
+        
+        <h1>同じディレクトリ階層のリンクの呼び出し</h1>
+        
+        <!-- リンクの呼び出し-->
+        
+        <a href="images/Blue_apple_350_3.jpg">隣のフォルダimagesから呼び出した青いリンゴ</a>
+        <p></p>
+        
+        <a href="../images2/Black_apple_350.jpg">親フォルダimages2から呼び出した虫食いのリンゴ</a>
+        <p></p>
+        
+        <h3>親フォルダimagesから呼び出したピカピカのリンゴの画像</h3>
+        
+        <img src="images/Blue_apple_350_2.jpg">
+        
+        <h3>親フォルダimages2から呼び出した虫食いリンゴの画像</h3>
+        <img src="../images2/Black_apple_350_3.jpg">
+        
+        <h1>相対パスと絶対パス</h1>
+        
+        <!-- 相対パスでリンクを作成 -->
+        <p>相対パスでリンクを飛ぶ</p>
+        <a href="https://yahoo.co.jp">やほおへ飛ぶ</a>
+        
+        <p></p>
+        <p></p>
+        <p>相対パスの画像リンクで、やほおへ飛ぶ</p>
+        <a href=https://yahoo.co.jp>
+        <img src="images/Blue_apple_350_4.jpg"
+             alt="やほおへ飛ぶ">
+        </a>
+        
+        <label>
+        <li><a href="2019.html">トップページ</a></li>
+        <li><a href="2019_2.html">UL要素を用いた青森リンゴとその他の地域のリンゴの紹介</a></li>
+        <li><a href="2019_4.html" target="_blank">フォームを使用したリンゴのテスト</a>
+        <li><a href="2019_5.html" target="_blank">フォームを使用したリンゴとフォームパーツ</a>
+        <li><a href="2019_3.html" target="_blank">サイトマップに戻る</a></li>
+        </label>
+        
+        
+        
+    </body>
+</html>
